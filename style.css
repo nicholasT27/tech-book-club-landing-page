@@ -1,8 +1,109 @@
 *{
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
 
 body {
     background-color: #ffffff;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    background: radial-gradient(circle at bottom right, rgba(156, 201, 218), #FFF5EF 25%);
+    padding: 32px 0px 80px 0px;
+}
+
+.logo {
+    width: 1185px;
+}
+
+.hero-description{
+    width: 1170px;
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+}
+
+.hero-description-grid-1 {
+    width: 570px;
+    height: 491px;
+    margin-top: 50px;
+}
+.hero-description-grid-1 > h1 {
+    font-family: 'Martian Mono', sans-serif;
+    font-size: 62px;
+    line-height: 1.2;
+    letter-spacing: -2px;
+    background: linear-gradient(107deg, #FF9A60 -11.37%, #062630 61.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 24px;
+}
+
+.hero-description-grid-1 > p {
+    font-family: 'inter', sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    margin-bottom: 32px;
+    color: #385159;
+}
+
+.hero-description-grid-1 > button {
+    font-family: 'Martian Mono', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    border: solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 20px 24px;
+    background: transparent;
+    margin-bottom: 20px;
+    color: #062630;
+}
+
+.rating{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+}
+
+.avatar {
+    width: 110px;
+    height: 40px;
+}
+
+.star > p {
+    font-family: 'Martian Mono', sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    font-weight: 400;
+    margin-top: 0px;
+    color: #385159;
+}
+
+.hero-description-grid-2 {
+    width: 540px;
+    height: 606px;
+}
+
+.hero-description-grid-2 > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.read-together-section{
+    margin-top: 50px;
 }
