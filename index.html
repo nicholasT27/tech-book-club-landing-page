@@ -7,7 +7,7 @@
     <link rel="icon" type="image/x-icon" href="./image/favicon-32x32.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Martian+Mono:wght@100..800&display=swap" rel="stylesheet">
     <title>Tech Book Club Landing Page</title>
 </head>
 <body>
@@ -38,33 +38,69 @@
         </section>
     </header>
     <section class="read-together-section">
-        <img src="./image/image-read-together-desktop.webp" aria-hidden="true" alt="image read together desktop"/>
-        <h1>Read together, grow together</h1>
-        <u>
-            <li>Monthly curated tech reads selected by industry experts</li>
-            <li>Virtual and in-person meetups for deep-dive discussions</li>
-            <li>Early access to new tech book releases</li>
-            <li>Author Q&A sessions with tech thought leaders</li>
-        </ul>
+        <div class="read-together-section-main">
+            <div class="hero-image">
+                <img src="./image/image-read-together-desktop.webp" aria-hidden="true" alt="image read together desktop"/> 
+            </div>   
+        <div class="read-together-section-list">
+            <h1>Read together, grow together</h1>
+            <ul>
+                <li>Monthly curated tech reads selected by industry experts</li>
+                <li>Virtual and in-person meetups for deep-dive discussions</li>
+                <li>Early access to new tech book releases</li>
+                <li>Author Q&A sessions with tech thought leaders</li>
+            </ul>
+        </div>
+        </div>
     </section>
-    <section>
-        <h1>Not your average book club</h1>
-        <p>Connect with a community that speaks your language - from Python to TypeScript and everything in between. Our discussions blend technical depth with practical applications.</p>
-        <img src="./image/logos-tech.svg" aria-hidden="true" alt="tech logo"/>
-        <img src="./image/image-not-average-desktop.webp" aria-hidden="true" alt="image not average desktop"/>
+    <section class="book-club">
+        <div class="book-club-main">
+            <div class="book-club-description">
+                <h1>Not your average book <span class="highlight-circle">club</span></h1>
+                <p>Connect with a community that speaks your language - from <span class="code">Python</span> to <span class="code">TypeScript</span> and everything in between. Our discussions blend technical depth with practical applications.</p>
+            </div>
+            <div class="book-club-image">
+                <img class="image-1" src="./image/logos-tech.svg" aria-hidden="true" alt="tech logo"/>
+                <img class="image-2" src="./image/image-not-average-desktop.webp" aria-hidden="true" alt="image not average desktop"/>
+            </div>
+        </div> 
     </section>
-    <section>
-        <h1>Your tech reading journey</h1>
-        <ol>
-            <li>Choose your membership tier</li>
-            <img src="./image/pattern-arrow.svg" aria-hiddern="true" alt="arrow"/>
-            <li>Get your monthly book selection</li>
-            <img src="./image/pattern-arrow.svg" aria-hiddern="true" alt="arrow"/>
-            <li>Join our discussion forums</li>
-            <img src="./image/pattern-arrow.svg" aria-hiddern="true" alt="arrow"/>
-            <li>Attend exclusive meetups</li>
-        </ol>
-    </section>
+    <section class="reading-journey">
+  <div class="reading-journey-main">
+    <h1>Your tech reading journey</h1>
+
+    <ol class="reading-journey-steps">
+      <li class="reading-journey-step">
+        <span class="step-number">1</span>
+        <p>Choose your membership tier</p>
+      </li>
+      <li class="reading-journey-arrow">
+        <img src="./image/pattern-arrow.svg" alt="" aria-hidden="true" />
+      </li>
+
+      <li class="reading-journey-step">
+        <span class="step-number">2</span>
+        <p>Get your monthly book selection</p>
+      </li>
+      <li class="reading-journey-arrow">
+        <img src="./image/pattern-arrow.svg" alt="" aria-hidden="true" />
+      </li>
+
+      <li class="reading-journey-step">
+        <span class="step-number">3</span>
+        <p>Join our discussion forums</p>
+      </li>
+      <li class="reading-journey-arrow">
+        <img src="./image/pattern-arrow.svg" alt="" aria-hidden="true" />
+      </li>
+
+      <li class="reading-journey-step">
+        <span class="step-number">4</span>
+        <p>Attend exclusive meetups</p>
+      </li>
+    </ol>
+  </div>
+</section>
     <section>
         <h1>Membership options</h1>
         <div>

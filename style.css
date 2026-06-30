@@ -23,7 +23,7 @@ header {
 }
 
 .hero-description{
-    width: 1170px;
+    max-width: 1170px;
     display: flex;
     flex-direction: row;
     gap: 64px;
@@ -68,6 +68,7 @@ header {
     background: transparent;
     margin-bottom: 20px;
     color: #062630;
+    gap: 10px;
 }
 
 .rating{
@@ -105,5 +106,238 @@ header {
 }
 
 .read-together-section{
-    margin-top: 50px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.read-together-section-main {
+    display: flex;
+    max-width: 1170px;
+    gap: 80px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.hero-image {
+    width: 560px;
+    height: 520px;
+}
+
+.hero-image > img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.read-together-section-list {
+    max-width: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.read-together-section-list > ul {
+    margin-top: 34px;
+    list-style: none;      /* remove list-style-image */
+    padding-left: 0;
+    max-width: 425px;
+    max-height: 268px;
+}
+
+.read-together-section-list li {
+    padding-bottom: 24px;
+    padding-left: 40px;    /* make room for the icon */
+    position: relative;    /* needed for ::before positioning */
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: -0.5px;
+    color: #385159;
+}
+
+.read-together-section-list li::before {
+    content: "";
+    background-image: url('./image/icon-check.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 24px;           /* match your icon size */
+    height: 24px;
+    position: absolute;
+    left: 0;
+    top: 50%;                    
+    transform: translateY(-100%); 
+}
+
+.read-together-section-list > h1 {
+    font-family: 'Martian Mono', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 1.3;
+    letter-spacing: -2px;
+    color: #062630;
+}
+
+.book-club { 
+    display: flex;
+    justify-content: center;
+    margin: 120px 0px;
+}
+
+.book-club-main {
+    display: flex;
+    flex-direction: row;
+    max-width: 1170px;
+    max-height: 520px;
+    position: relative;
+    align-items: center;
+    gap: 80px;
+}
+
+.book-club-description {
+    max-width: 528px;
+    max-height: 266px;
+}
+
+.book-club-description > h1 {
+    font-size: 50px;
+    line-height: 1.3;
+    letter-spacing: -2px;
+    font-family: 'Martian Mono', sans-serif;
+    font-weight: 600;
+    color: #062630;
+}
+
+.highlight-circle {
+    position: relative;
+    display: inline-block;
+}
+
+.highlight-circle::before {
+    content: "";
+    background-image: url('./image/pattern-circle.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 120%;        /* wider than the word */
+    height: 150%;       /* taller than the text */
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%, -50%);  /* center over the word */
+}
+
+.book-club-description > p {
+    margin-top: 24px;
+    color: #385159;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: -0.5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.code {
+    color: #062630;
+    font-weight: 600;
+}
+
+.book-club-image {
+    max-width: 560px;
+}
+
+.book-club-image > .image-1 {
+    position: absolute;
+    bottom: 5%;
+    left: 45%;
+}
+
+.book-club-image > .image-2 {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.reading-journey {
+    display: flex;
+    justify-content: center;
+}
+
+.reading-journey-main {
+    max-width: 1170px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: radial-gradient(circle at bottom right, rgba(156, 201, 218), #FFF5EF 25%);
+    border-radius: 10px;
+    padding: 80px 0px;
+    gap: 64px;
+}
+
+.reading-journey-main > h1 {
+    font-family: 'Martian Mono', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 1.3;
+    letter-spacing: -2px;
+    max-width: 512px;
+    max-height: 130px;
+    text-align: center;
+    color: #062630;
+}
+
+.reading-journey-steps {
+    display: flex;
+    align-items: flex-start;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+.reading-journey-step {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 227px;
+    position: relative;
+}
+
+.step-number {
+    width: 36px;
+    height: 36px;
+    border: 2px solid #062630;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Martian Mono', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: -1px;
+    margin-bottom: 12px;
+}
+
+.reading-journey-step p {
+    font-family: 'Martian Mono', sans-serif;
+    font-weight: 600px;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: -1px;
+}
+
+.reading-journey-arrow {
+    align-self: flex-start;
+    padding-top: 8px;
+    position: relative;
+}
+
+.reading-journey-arrow img {
+    display: block;
+    position: absolute;
+    right: 10px;
 }
