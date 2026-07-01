@@ -271,7 +271,7 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: radial-gradient(circle at bottom right, rgba(156, 201, 218), #FFF5EF 25%);
+    background: radial-gradient(circle at bottom right, rgba(156, 201, 218), #FAF5F3 25%);
     border-radius: 10px;
     padding: 80px 0px;
     gap: 64px;
@@ -340,4 +340,305 @@ header {
     display: block;
     position: absolute;
     right: 10px;
+}
+
+.membership {
+    display: flex;
+    justify-content: center;
+    margin: 120px 0px;
+}
+
+.membership-main {
+    max-width: 970px;
+    max-height: 519px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+}
+
+.membership-title > h1 {
+    font-family: 'Martian Mono', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 1.3;
+    letter-spacing: -2px;
+    color: #062630;
+}
+
+.membership-list {
+    display: flex;
+    gap: 24px;
+    width: 100%;
+    align-items: center;
+}
+
+.membership-option-1 {
+    width: 286px;
+    height: 358px;
+    padding: 24px;
+    border: 1px solid #E6E1DF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.membership-option-1 > h3 {
+    font-size: 24px;
+    line-height: 1.1;
+    letter-spacing: -1px;
+    font-weight: 400;
+    color: #062630;
+    font-family: 'Martian Mono', sans-serif;
+    margin-bottom: 10px;
+    max-width: 100px;
+    max-height: 26px;
+}
+
+.membership-option-1 > p {
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #385159;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.price {
+    font-size: 34px;
+    line-height: 1.3;
+    letter-spacing: -1px;
+    font-weight: 600;
+    color: #062630;
+    font-family: 'Inter', sans-serif;
+}
+
+.membership-option-1 hr {
+    margin: 10px 0px;
+    border: none;
+    border-top: 1px solid #E6E1DF;
+}
+
+.membership-option-1 > ul {
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #385159;
+}
+
+.membership-option-1 li {
+    list-style: none;
+    background-image: url('/image/icon-check.svg');
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    margin-bottom: 12px;
+}
+
+.membership-option-1 > button {
+    width: 238px;
+    height: 63px;
+    margin-top: 12px;
+    border: 2px solid #062630;
+    color: #062630;
+    font-family: 'Martian Mono', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: -1px;
+    border-radius: 10px;
+    background-color: #FFF5EF;
+}
+
+.membership-option-2 {
+    width: 286px;
+    height: 400px;
+    padding: 24px;
+    border: 1px solid #E6E1DF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: radial-gradient(circle at bottom right, rgba(156, 201, 218), #FAF5F3 25%);
+}
+
+.membership-option-2 > h3 {
+    font-size: 24px;
+    line-height: 1.1;
+    letter-spacing: -1px;
+    font-weight: 400;
+    color: #062630;
+    font-family: 'Martian Mono', sans-serif;
+    margin-bottom: 10px;
+    max-width: 100px;
+    max-height: 26px;
+}
+
+.membership-option-2 > p {
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #385159;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.membership-option-2 hr {
+    margin: 10px 0px;
+    border: none;
+    border-top: 1px solid #E6E1DF;
+}
+
+.membership-option-2 > ul {
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #385159;
+}
+
+.membership-option-2 li {
+    list-style: none;
+    background-image: url('/image/icon-check.svg');
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    margin-bottom: 12px;
+}
+
+.membership-option-2 > button {
+    width: 238px;
+    height: 63px;
+    margin-top: 12px;
+    border: 2px solid #062630;
+    color: #062630;
+    font-family: 'Martian Mono', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: -1px;
+    border-radius: 10px;
+    background-color: #FFF5EF;
+}
+
+.membership-option-3 {
+    width: 286px;
+    height: 358px;
+    padding: 24px;
+    border: 1px solid #E6E1DF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.membership-option-3 > h3 {
+    font-size: 24px;
+    line-height: 1.1;
+    letter-spacing: -1px;
+    font-weight: 400;
+    color: #062630;
+    font-family: 'Martian Mono', sans-serif;
+    margin-bottom: 10px;
+    max-width: 100px;
+    max-height: 26px;
+}
+
+.membership-option-3 p {
+    font-size: 34px;
+    line-height: 1.3;
+    letter-spacing: -1px;
+    font-weight: 600;
+    color: #062630;
+    font-family: 'Inter', sans-serif;
+}
+
+.membership-option-3 hr {
+    margin: 10px 0px;
+    border: none;
+    border-top: 1px solid #E6E1DF;
+}
+
+.membership-option-3 > ul {
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #385159;
+}
+
+.membership-option-3 li {
+    list-style: none;
+    background-image: url('/image/icon-check.svg');
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    margin-bottom: 12px;
+}
+
+.membership-option-3 > button {
+    width: 238px;
+    height: 63px;
+    margin-top: 12px;
+    border: 2px solid #062630;
+    color: #062630;
+    font-family: 'Martian Mono', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: -1px;
+    border-radius: 10px;
+    background-color: #FFF5EF;
+}
+
+.comment-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.comment-section-main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 970px;
+}
+
+.comment-section-description {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+}
+
+.comment-section-description > h2 {
+    font-weight: 600;
+    font-family: 'Martian Mono', sans-serif;
+    font-size: 34px;
+    line-height: 1.3;
+    letter-spacing: -1px;
+    color: #062630;
+}
+
+.comment-section-description > p {
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: -0.5px;
+    color: #385159;
+}
+
+footer {
+    background-color: #062630;
+    border-radius: 10px 10px 0 0;
 }
